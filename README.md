@@ -165,9 +165,9 @@ python evaluate_metrics.py \
 | `--version` | ✅ | `edge` or `final` |
 | `--gt_dir` | ✅ | HR ground-truth image directory |
 | `--struct_dir` | ✅ | Structure-oriented SR image directory |
-| `--struct_suffix` | ✅ | Filename suffix for structural images (e.g. `_SwinIR`) |
+| `--struct_suffix` |  | Filename suffix for structural images (e.g. `_SwinIR`) |
 | `--prc_dir` | ✅ | Perception-oriented SR image directory |
-| `--prc_suffix` | ✅ | Filename suffix for perceptual images (e.g. `_PFT`) |
+| `--prc_suffix` |  | Filename suffix for perceptual images (e.g. `_PFT`) |
 | `--output_dir` | ✅ | Output directory |
 | `--model_path` | | FGResQ model weights (default: `FGResQ.pth`) |
 
@@ -178,9 +178,9 @@ python evaluate_metrics.py \
 | `--version` | ✅ | `edge` or `final` |
 | `--gt_dir` | ✅ | HR ground-truth image directory |
 | `--struct_dir` | ✅ | Structure-oriented SR image directory |
-| `--struct_suffix` | ✅ | Filename suffix for structural images |
+| `--struct_suffix` |  | Filename suffix for structural images |
 | `--prc_dir` | ✅ | Perception-oriented SR image directory |
-| `--prc_suffix` | ✅ | Filename suffix for perceptual images |
+| `--prc_suffix` |  | Filename suffix for perceptual images |
 | `--output_dir` | ✅ | Output directory |
 | `--gfpgan_model` | | GFPGAN model weights (default: `pretrained_models/GFPGANv1.4.pth`) |
 
@@ -191,9 +191,9 @@ python evaluate_metrics.py \
 | `--version` | ✅ | `mse`, `gan`, `edge`, or `final` |
 | `--gt_dir` | ✅ | HR ground-truth image directory |
 | `--struct_dir` | ✅ | Structure-oriented SR image directory |
-| `--struct_suffix` | ✅ | Filename suffix for structural images |
+| `--struct_suffix` |  | Filename suffix for structural images |
 | `--prc_dir` | ✅ | Perception-oriented SR image directory |
-| `--prc_suffix` | ✅ | Filename suffix for perceptual images |
+| `--prc_suffix` |  | Filename suffix for perceptual images |
 | `--output_dir` | ✅ | Directory to save Excel results |
 | `--result_dir` | ✅* | Ensemble result directory (*required for `edge`/`final`) |
 | `--dataset` | | Dataset name for output filename (inferred from `gt_dir` if omitted) |
